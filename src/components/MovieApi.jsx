@@ -40,7 +40,6 @@ export const searchMovies = async (query) => {
     }
 };
 
-
 export const fetchMovieDetails = async (movieId) => {
     try {
         const response = await axios.get(
@@ -75,9 +74,6 @@ export const fetchMovieCast = async (movieId) => {
     }
 };
 
-
-
-
 export const fetchMovieReviews = async (movieId) => {
     try {
         const response = await axios.get(
@@ -95,4 +91,3 @@ export const fetchMovieReviews = async (movieId) => {
         return [];
     }
 };
-
