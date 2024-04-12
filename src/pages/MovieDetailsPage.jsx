@@ -46,7 +46,7 @@ const MovieDetails = () => {
                     <h4 className={css.titleInfo}>Additional information</h4>
                     <ul className={css.listInfo}>
                         <li>
-                            <NavLink to={`/movies/${movieId}/cast`} className={css.itemInfo}>Movie Cast</NavLink>
+                            <NavLink to={`/movies/${movieId}/cast`} className={css.itemInfo}>Cast</NavLink>
                         </li>
                         <li>
                             <NavLink to={`/movies/${movieId}/reviews`} className={css.itemInfo}>Movie Reviews</NavLink>
