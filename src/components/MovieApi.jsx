@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MDVjZGVkMmMyYjM0NmU3ZDJmYmZjMTQ0NjE5ZmFhOSIsInN1YiI6IjY1ZjVhYzE5MTU2Y2M3MDE3ZTYyMzU1MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4TG6hoWqzSjA9IphKF__cmAhTq8GagCWRTJ_7m87oyI'; 
+const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZDM4NWU2YmMyNTdkYThiNDM2ZDc1N2UxYWRjZGVkYSIsInN1YiI6IjY2MTNmNzQxOTgyZjc0MDE3ZTYwMmZiNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Y-4m2_LRCIG5lS_d6Umiyq_CXKhjWxy2SLYZ7QybLZQ'; 
 
 export const fetchTrendingMovies = async () => {
   try {
